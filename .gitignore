@@ -13,3 +13,5 @@ exp/
 .vscode/
 .idea/
 .DS_Store
+
+.expense.db
