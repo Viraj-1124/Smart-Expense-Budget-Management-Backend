@@ -14,4 +14,4 @@ exp/
 .idea/
 .DS_Store
 
-.expense.db
+*.db

@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from app.database import engine, Base
 from app.routes import auth,analytics
 from app.routes import expense as exp
+from app.routes import budget as bg
 from app.models import budget,user,expense
 from app.database import Base
 
@@ -20,3 +21,4 @@ def root():
 app.include_router(auth.router)
 app.include_router(exp.router)
 app.include_router(analytics.router)
+app.include_router(bg.router)
